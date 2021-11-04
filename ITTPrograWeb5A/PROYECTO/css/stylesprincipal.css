@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+* {
+box-sizing: border-box;
+
+}
+
+/*HEADER*/
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+    background-image: url("img/pltortugas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+/*nav*/
+.main-nav{
+   
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5));   
+} 
+
+.logo {
+   
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:white;
+}
+
+ul{
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul li a {
+   display: inline-block;
+   padding: 20px 40px;
+   font-size: 1.3rem;
+   color:white;
+}
+
+ul li a:hover{
+
+    background: #E74C3C;
+
+}
+.content-header{
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  
+  
+}
+.content-header h1{
+    font-size: 7rem;
+}
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #E74C3C;
+    color: white;
+}
+
+.content-header a:hover{
+    background: #EC7063;
+    border: 2px solid white;
+    padding: 13px 18px;
+
+}
